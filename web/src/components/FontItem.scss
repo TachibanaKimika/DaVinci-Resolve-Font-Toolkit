@@ -1,0 +1,64 @@
+
+.font-item:not(:last-child) {
+  border-bottom: 1px solid #cccccc44;
+}
+
+.font-item {
+  width: 100%;
+  display: flex;
+  // height: 50px;
+  // align-items: center;
+  padding: 5px 10px;
+  flex-direction: column;
+
+  .font-basic {
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+  }
+
+  .font-item-left {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+
+    &:hover {
+      color: #0070f3;
+      cursor: pointer;
+    }
+  }
+
+  .font-item-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    margin-left: auto;
+    // margin-right: 10px;
+  }
+
+  .font-item-fav-icon {
+    cursor: pointer;
+  }
+
+  .font-foot {
+    display: flex;
+    font-size: 8px;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-top: 8px;
+
+    .font-style-btn {
+      cursor: pointer;
+      padding: 2px 5px;
+      border-radius: 5px;
+      background-color: #8b8b8b;
+      color: white;
+
+      &:hover {
+        background-color: #0070f3;
+      }
+    }
+  }
+}

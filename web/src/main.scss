@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  
+  &::-webkit-scrollbar {
+    right: 0;
+    top: 0;
+    width: 5px;
+    height: 2px;
+    background-color: transparent;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: #0070f3ee;
+  }
+
+  &::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+  }
+}
+
+body, #root {
+  padding: 0;
+  margin: 0;
+  font-display: swap;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: #28282e;
+  color: #ccc;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+input[type="text"] {
+  all: unset;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 14px;
+  cursor: text;
+}
+
+#root {
+  overflow: scroll;
+  width: 100%;
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
+}
+
+
+.icon {
+  font-size: 12px;
+  &:hover {
+    color: #0070f3;
+    fill: #0070f3;
+    cursor: pointer;
+  }
+}

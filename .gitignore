@@ -1,0 +1,10 @@
+dist
+__pycache__
+node_modules
+/data.json
+/data
+/build
+/static
+*.zip
+*.exe
+/preview.spec

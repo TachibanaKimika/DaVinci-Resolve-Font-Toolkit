@@ -1,0 +1,31 @@
+{
+  "name": "davinci-font-preview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "cross-env ENV=dev python ./preview.py",
+    "pack-bin": "node ./build.js && bestzip DaVinciFontPreview-bin.zip ./preview.exe",
+    "pack-script": "pnpm build && bestzip DaVinciFontPreview-script.zip static/* preview.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "bestzip": "^2.2.1",
+    "classnames": "^2.5.1",
+    "cross-env": "^7.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  },
+  "dependencies": {
+    "sass": "^1.82.0"
+  }
+}

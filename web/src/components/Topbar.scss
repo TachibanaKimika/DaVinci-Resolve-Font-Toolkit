@@ -1,0 +1,57 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.3s;
+
+  .filter-fav {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .search-font-input input {
+    all: unset;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 14px;
+    cursor: text;
+  }
+
+  .davinci-instance-status {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: auto;
+  }
+
+  .davinci-status-icon {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FF0000;
+
+    &.red {
+      background-color: #FF0000;
+    }
+
+    &.green {
+      background-color: #00FF00;
+    }
+
+    &.yellow {
+      background-color: #ffc132;
+    }
+  }
+}
