@@ -17,7 +17,7 @@
 > [!NOTE]
 > 目前仅有Windows环境的二进制, macOS 可以参考 [构建二进制](#构建二进制) 自己构建.
 
-下载 Release 页面下的 *-bin.zip 文件并解压缩到任意路径, 打开 DaVinci Resolve 后打开解压后的 preview.exe 文件即可使用.(会在相同目录下生成一个 ./data 文件夹保存数据)
+下载 [Release](https://github.com/TachibanaKimika/DaVinci-Resolve-Font-Toolkit/releases) 页面下的 *-bin.zip 文件并解压缩到任意路径, 打开 DaVinci Resolve 后打开解压后的 preview.exe 文件即可使用.(会在相同目录下生成一个 ./data 文件夹保存数据)
 
 ### 脚本
 
@@ -30,7 +30,7 @@
 pip install pywebview
 ```
 
-2. 下载 Release 目录下的 `*-script.zip` 文件, 解压到 `C:\ProgramData\Blackmagic Design\DaVinci Resolve\Fusion\Scripts\Edit` (macOS 路径是 `/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Edit`) 目录下.
+2. 下载 [Release](https://github.com/TachibanaKimika/DaVinci-Resolve-Font-Toolkit/releases) 页面下的 `*-script.zip` 文件, 解压到 `C:\ProgramData\Blackmagic Design\DaVinci Resolve\Fusion\Scripts\Edit` (macOS 路径是 `/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Edit`) 目录下.
 
 3. 打开 DaVinci Resolve, 打开`工作区(workspace) -> 脚本 -> Edit -> DaVinci Resolve Font Toolkit -> preview` 即可使用.
 
