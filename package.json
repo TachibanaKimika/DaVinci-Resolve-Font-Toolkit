@@ -1,5 +1,5 @@
 {
-  "name": "davinci-font-preview",
+  "name": "davinci-resolve-font-toolkit",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "start": "cross-env ENV=dev python ./preview.py",
-    "pack-bin": "node ./build.js && bestzip DaVinciFontPreview-bin.zip ./preview.exe",
-    "pack-script": "pnpm build && bestzip DaVinciFontPreview-script.zip static/* preview.py"
+    "pack-bin": "node ./build.js && bestzip DaVinciResolveFontToolkit-bin.zip ./preview.exe",
+    "pack-script": "pnpm build && bestzip DaVinciResolveFontToolkit-script.zip static/* preview.py"
   },
   "keywords": [],
   "author": "",
